@@ -18,16 +18,26 @@
 # sum(1, 2)
 # sum(10, 10)
 # sum(20, 20)
+#
+# def func2():
+#     return ("hello milesfashion")
+#
+#
+# def sum2(a, b):
+#     return (a + b)
+#
+#
+# a = sum2(1, 2)
+# print(a)
+# b = sum2(3, 3)
+# print(b)
+def converter(weight):
+    ponds=weight/0.45
+    print(ponds)
+converter(300)
 
-def func2():
-    return ("hello milesfashion")
-
-
-def sum2(a, b):
-    return (a + b)
-
-
-a = sum2(1, 2)
-print(a)
-b = sum2(3, 3)
-print(b)
+def converter2(weight=100):
+    ponds=weight/0.45
+    print(ponds)
+converter2(weight=300)
+converter2(400)
